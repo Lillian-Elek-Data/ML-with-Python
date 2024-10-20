@@ -14,7 +14,7 @@ There is a Weather Data csv inside the Weather ML folder which is used for analy
 - Training and Testing
 - Cluster Analysis
 ## Weather Data OLS Regression 
-The file [Weather Data OLS Regression](Weather-MLR/Weather-Data-OLS-Regression.ipynb) goes over:
+The file [Weather Data OLS Regression](/blob/main/Weather%20MLR/Weather%20Data%20OLS%20Regression.ipynb) goes over:
 - Multiple Linear Regression
 - Standardization
 - Training and Testing
