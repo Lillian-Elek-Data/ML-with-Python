@@ -17,5 +17,9 @@ The file [Weather Data OLS Regression](/Weather%20ML/Weather%20Data%20OLS%20Regr
 - Multiple Linear Regression
 - Standardization
 - Training and Testing
-nbvbnbjhgnbbnbgvbnxc
 ## Weather Data Clustering
+The file [Weather Data Predictions-Clustering] (Weather%20ML/Weather%20Data%20Predictions%20-%20Clustering.ipynb) goes over:
+- Manual K-means clustering with sklean
+- Selecting the Number of Clusters with WCSS
+- Plotting the Elbow with standardized and non-standardized data
+- Analyzing the predictions 
