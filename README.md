@@ -22,4 +22,4 @@ The file [Weather Data Predictions-Clustering](/Weather%20ML/Weather%20Data%20Pr
 - Manual K-means clustering with sklean
 - Selecting the Number of Clusters with WCSS
 - Plotting the Elbow with Standardized Variables
-- Analyzing the predictions 
+- Analyzing the results 
