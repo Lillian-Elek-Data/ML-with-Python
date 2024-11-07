@@ -25,7 +25,6 @@ The file [Weather Data Predictions-Clustering](/Weather%20ML/Weather%20Data%20Pr
 - Plotting the Elbow with Standardized Variables
 - Analyzing the results
 ## Weather Data Regrouped Clustering
-This data has a new column Weather_Regrouped: a manula grouping/ simplifying of the original weather column \
 This file goes over:
 - Balancing the dataset
 - Standardization
@@ -34,3 +33,4 @@ This file goes over:
 - Plotting the Elbow with Standardized Variables
 - Silhouette Scores
 - Analyzing the results
+This data has a new column Weather_Regrouped: a manula grouping/ simplifying of the original weather column
