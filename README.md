@@ -11,6 +11,7 @@ Practice notebooks covering a variety of machine learning techniques
 There is a Weather Data csv & Weather Data Regrouped csv inside the Weather ML folder which is used for analysis on: 
 - Multiple Linear Regression
 - Standardization
+- Balancing
 - Training and Testing
 - Clustering
 ## Weather Data OLS Regression 
@@ -25,7 +26,7 @@ The file [Weather Data Predictions-Clustering](/Weather%20ML/Weather%20Data%20Pr
 - Plotting the Elbow with Standardized Variables
 - Analyzing the results
 ## Weather Data Regrouped Clustering
-This file has a new column Weather_Regrouped: a manula grouping/ simplifying of the original weather column and goes over:
+This file [Weather Data Regrouped - Clustering](/Weather%20ML/Weather%20Data%20Regrouped%20-%20Clustering.ipynb) has a new column Weather_Regrouped: a manula grouping/ simplifying of the original weather column and goes over:
 - Balancing the dataset
 - Standardization
 - Manual K-means clustering with sklearn
