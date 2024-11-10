@@ -13,7 +13,7 @@ There is a Weather Data csv & Weather Data Regrouped csv inside the Weather ML f
 - Standardization
 - Balancing
 - Training and Testing
-- Clustering
+- Clustering manually and with WCSS
 ## Weather Data OLS Regression 
 The file [Weather Data OLS Regression](/Weather%20ML/Weather%20Data%20OLS%20Regression.ipynb) goes over:
 - Multiple Linear Regression
