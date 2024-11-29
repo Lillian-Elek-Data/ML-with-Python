@@ -9,8 +9,8 @@ Practice notebooks covering a variety of machine learning techniques
 - Logistic Regression
 
 # Simple Linear Regression
-This folder contains a the file [Simple Linear Regression](/Simple%20Linear%20Regression/Number%20of%20Books%20Read%20-%20SLR.ipynb) which goes over Simple Linear Regression on a fabricated data csv
-- This dataset aims to predict the number of books read per month based on the number of hours spent reading each week. 
+This folder contains a the file [Number of Books Read - Simple Linear Regression](/Simple%20Linear%20Regression/Number%20of%20Books%20Read%20-%20SLR.ipynb) which goes over SLR analysis on a fabricated data csv.
+- The csv dataset (boods_read) aims to predict the number of books read per month based on the number of hours spent reading each week. 
 
 # Weather ML
 There is a Weather Data csv & Weather Data Regrouped csv inside the Weather ML folder which is used for analysis on: 
