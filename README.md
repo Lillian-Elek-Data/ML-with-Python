@@ -8,27 +8,21 @@ Practice notebooks covering a variety of machine learning techniques
 - Cluster Analysis
 - Logistic Regression
 
-# Simple Linear Regression - Folder
-
-<details>
-  <summary>Click to expand</summary>
-  
+# Simple Linear Regression - Folder 
 The file [Number of Books Read - Simple Linear Regression](/Simple%20Linear%20Regression/Number%20of%20Books%20Read%20-%20SLR.ipynb) which goes over the steps to conduct SLR analysis on a fabricated csv file.
 - The csv dataset (boods_read) aims to predict the number of books read per month based on the number of hours spent reading each week 
 
-</details>
-
-# Weather ML - Folder
-
-<details>
-  <summary>Click to expand</summary>
-  
+# Weather ML - Folder 
 There is a Weather Data csv & Weather Data Regrouped csv inside the Weather ML folder which is used for analysis on: 
 - Multiple Linear Regression
 - Standardization
 - Balancing
 - Training and Testing
 - Clustering manually and with WCSS
+
+<details>
+  <summary>Click to expand</summary>
+  
 ## Weather Data OLS Regression - Notebook
 The file [Weather Data OLS Regression](/Weather%20ML/Weather%20Data%20OLS%20Regression.ipynb) goes over:
 - Multiple Linear Regression
