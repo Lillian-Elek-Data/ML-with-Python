@@ -11,7 +11,23 @@ This repository contain the 5 core assumptions of Linear regression along with p
 # Simple Linear Regression - Folder 
 The file [Number of Books Read - Simple Linear Regression](/Simple%20Linear%20Regression/Number%20of%20Books%20Read%20-%20SLR.ipynb) goes over the steps to conduct a SLR analysis on a fabricated csv file.
 
-Using a 300-row dataset of BooksRead (target) and HoursSpentReading per week (feature), I fit a **simple linear regression** and walked through standard diagnostics. The OLS fit shows a very strong relationship **(R² = 0.966; F = 8559; p < 1e-200)**. The estimated slope is **≈ 0.25**—each additional hour of weekly reading is associated with about **a quarter of a book more per month**—with an intercept of ≈ 0.24. Assumption checks looked good overall: histograms suggested approximate normality, the scatter hinted at linearity/homoscedasticity, and **Durbin–Watson ≈ 1.87** (near 2) indicated minimal autocorrelation. With an **80/20 train–test split (60 test rows)**, predictions tracked the held-out targets closely (mean **absolute percentage difference ≈ 7.4%**, sd ≈ 8.7%), with the largest errors occurring at very low book counts. Taken together, this single-predictor baseline is **highly explanatory and interpretable**; natural next steps would be to incorporate features like pages/day, session length, or book length and compare against regularized models.
+Using a 300-row dataset containing **BooksRead** (target) and **HoursSpentReading per week** (feature), I fit a **simple linear regression model** and conducted all standard diagnostic checks. The OLS results reveal an exceptionally strong linear association between reading time and books read, with a model fit of **R² = 0.967** and an extremely significant overall relationship (**F-statistic ≈ 7035; p < 1×10⁻¹⁷⁸**).
+
+The estimated slope is **≈ 0.24**, meaning each additional hour spent reading per week corresponds, on average, to **about one-quarter of a book more per month**. 
+
+Model assumptions were evaluated on the **training data (80% split)** and showed strong compliance:
+- Histograms suggested **residual normality**.
+- The residuals-vs-fitted plot showed **no major nonlinearity or heteroscedasticity patterns**.
+- **Durbin–Watson ≈ 2.048** indicated essentially **no autocorrelation**, appropriate for cross-sectional data.
+
+Generalization performance was outstanding. With 60 held-out test observations, the model maintained nearly identical accuracy:
+- **R² dropped only slightly from 0.967 → 0.961**,
+- **RMSE remained stable (0.212 → 0.213)**,
+- **MAE remained nearly identical (0.157 → 0.158)**.
+
+Predictions tracked actual book counts closely, with typical deviations of only a few tenths of a book and the largest errors concentrated among very low book-read values (where proportionate differences are naturally higher). Overall, the model showed **excellent stability and minimal overfitting**, supported by near-identical training and testing errors.
+
+Taken together, this single-predictor model is **highly explanatory, stable, and easy to interpret**. 
 
 # Weather ML - Folder 
 There is a Weather Data csv & Weather Data Regrouped csv inside the Weather ML folder which is used for analysis on: 
