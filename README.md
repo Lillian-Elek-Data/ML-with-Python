@@ -8,6 +8,9 @@ This repository contain the 5 core assumptions of Linear regression along with p
 - Cluster Analysis
 - Logistic Regression
 
+# 2009-CO2-emmissions ML - Folder 
+The file [ML OLS Regression with CO2 Data](/2009-CO2-emmissions%20ML/ML%20OLS%20Regression%20with%20CO2%20Data.ipynb) is a regression-powered deep dive into what drives state-level carbon emissions. Includes log-transformed modeling, feature selection, and end-to-end diagnostics for high-accuracy environmental prediction.
+
 # Simple Linear Regression - Folder 
 The file [Number of Books Read - Simple Linear Regression](/Simple%20Linear%20Regression/Number%20of%20Books%20Read%20-%20SLR.ipynb) goes over the steps to conduct a SLR analysis on a fabricated csv file.
 
