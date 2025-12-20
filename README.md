@@ -1,5 +1,5 @@
 # ML-with-Python
-This repository contain the 5 core assumptions of Linear regression along with practice notebooks covering a variety of machine learning techniques
+This repository contain the 5 core assumptions of Linear regression along with practice notebooks covering a variety of machine learning and statistical techniques.
 - Simple Linear Regression
 - Multiple Linear Regression
 - Standardization
