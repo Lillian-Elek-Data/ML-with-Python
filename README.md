@@ -17,7 +17,7 @@ I used a hybrid workflow where I performed an early train/test split to prevent 
 # Simple Linear Regression - Folder 
 [Number of Books Read - Simple Linear Regression](/Simple%20Linear%20Regression/Number%20of%20Books%20Read%20-%20SLR.ipynb) Trains a simple linear regression model to predict how many books are read each month from HoursSpentReading. Utilized assumptions checks, a hold-out test set, and full residual diagnostics on a fabricated csv file.
 
-Using a 300-row dataset containing **BooksRead** (target) and **HoursSpentReading per week** (feature), I fit a **simple linear regression model** and conducted all standard diagnostic checks. The OLS results reveal an exceptionally strong linear association between reading time and books read, with a model fit of **R² = 0.967** and an extremely significant overall relationship (**F-statistic ≈ 7035; p < 1×10⁻¹⁷⁸**).
+Using a 300-row dataset containing **BooksRead** (target) and **HoursSpentReading per week** (feature), I fit a **simple linear regression model** and conducted all standard diagnostic checks. The OLS training data results reveal an exceptionally strong linear association between reading time and books read, with a model fit of **R² = 0.967** and an extremely significant overall relationship (**F-statistic ≈ 7035; p < 1×10⁻¹⁷⁸**).
 
 The estimated slope is **≈ 0.24**, meaning each additional hour spent reading per week corresponds, on average, to **about one-quarter of a book more per month**. 
 
