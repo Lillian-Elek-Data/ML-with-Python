@@ -35,6 +35,34 @@ Predictions tracked actual book counts closely, with typical deviations of only 
 
 Taken together, this single-predictor model is **highly explanatory, stable, and easy to interpret**. 
 
+# Stroke Prediction - Logistic Regression Folder
+[Stroke Prediction - Logistic Regression](/Stroke%20Prediction%20-%20Logistic%20Regression/Stroke%20Prediction%20-%20Logistic%20Regression.ipynb) develops a logistic regression model to predict stroke risk using patient demographic and health data.
+
+**Workflow:**
+I used a hybrid workflow utilizing statistical analysis and machine learning to run a Healthcare Risk Assessment. I performed an early train/test split to prevent leakage. I fit a Logistic Regression model on training data using statsmodels for feature selection and assumption validation. After selecting statistically significant features, I refit the model with scikit-learn and evaluated assumptions and generalization performance on held-out test data as well as performed threshold optimization.
+
+**Executive Summary**
+- **83.7% ROC-AUC** on test data, demonstrating strong discriminative ability
+- **80% recall** for stroke cases, prioritizing early detection
+- **Excellent generalization** with minimal train-test performance gaps in a highly imbalanced healthcare dataset.
+- **Interpretable risk factors** aligned with clinical risk factors (age, hypertension, glucose levels)
+
+**Business Value:**
+- Enables early identification of high-risk patients for preventive care
+- Reduces healthcare costs through targeted intervention
+- Provides interpretable predictions for clinical decision support
+- Minimizes missed stroke cases (high recall prioritization)
+
+**Technical Approach:**
+- Handled severe class imbalance (95/5 split) using balanced class weights
+- Applied feature engineering (log/polynomial transforms) for non-linear patterns
+- Validated statistical assumptions (VIF & linearity)
+- Optimized decision threshold for operational deployment
+
+The model is designed as a **screening tool** rather than a diagnostic system, optimized to identify high-risk patients for further evaluation while minimizing missed cases.
+
+**Key Technologies:** Python, scikit-learn, statsmodels, pandas, seaborn
+
 # Weather ML - Folder 
 There is a Weather Data csv & Weather Data Regrouped csv inside the Weather ML folder which is used for analysis on: 
 - Multiple Linear Regression
