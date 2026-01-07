@@ -1,0 +1,21 @@
+# CO2 OLS Regression Project Requirements
+# Python 3.9+
+
+# Data Manipulation
+pandas==1.5.3
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.5.1
+
+# Statistical Analysis
+statsmodels==0.14.5
+scipy==1.12.0
+
+# Model Persistence
+joblib>=1.3.0
+
